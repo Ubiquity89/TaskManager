@@ -201,55 +201,8 @@ npm run build    # Build for production
 npm test         # Run tests
 ```
 
-## Troubleshooting
-
-### Common Issues
-
-1. **MongoDB Connection Error**
-   - Ensure MongoDB is running
-   - Check connection string in `.env` file
-   - Verify network connectivity for MongoDB Atlas
-
-2. **CORS Issues**
-   - Backend should be running on port 5000
-   - Frontend should be running on port 3000
-   - Check that CORS is properly configured
-
-3. **Port Already in Use**
-   - Kill processes using the ports:
-   ```bash
-   # On Windows
-   netstat -ano | findstr :3000
-   taskkill /PID <PID> /F
-   
-   # On macOS/Linux
-   lsof -ti:3000 | xargs kill -9
-   ```
-
-4. **TypeScript Compilation Errors**
-   - Run `npm install` in both frontend and backend
-   - Check TypeScript versions are compatible
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Future Enhancements
 
-- [ ] User authentication and authorization
-- [ ] Task categories and tags
-- [ ] Due dates and reminders
-- [ ] Task search functionality
-- [ ] Drag and drop task reordering
-- [ ] Dark mode support
-- [ ] Export tasks to different formats
-- [ ] Real-time collaboration
-- [ ] Mobile app version
