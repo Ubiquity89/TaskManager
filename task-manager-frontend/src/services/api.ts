@@ -1,7 +1,9 @@
 import axios from 'axios';
 import { Task } from '../types/task';
 
-const API_URL = 'http://localhost:5000/api/tasks';
+const API_URL = process.env.REACT_APP_API_URL 
+  ? `${process.env.REACT_APP_API_URL}/api/tasks`
+  : 'http://localhost:5000/api/tasks';
 
 const api = axios.create({
   baseURL: API_URL,
