@@ -5,21 +5,21 @@ A full-stack task management application built with the MERN stack (MongoDB, Exp
 ## Features
 
 ### Frontend (React.js)
-- ✅ **Responsive and user-friendly UI** with modern design
-- ✅ **Add, edit, and delete tasks** with form validation
-- ✅ **Mark tasks as completed** with visual feedback
-- ✅ **Filter tasks** by status (All / Completed / Pending)
-- ✅ **Real-time task counts** for each filter
-- ✅ **Character limits** with live counters
-- ✅ **Loading states** and error handling
-- ✅ **Mobile-responsive design**
+- **Responsive and user-friendly UI** with modern design
+- **Add, edit, and delete tasks** with form validation
+- **Mark tasks as completed** with visual feedback
+- **Filter tasks** by status (All / Completed / Pending)
+- **Real-time task counts** for each filter
+- **Character limits** with live counters
+- **Loading states** and error handling
+- **Mobile-responsive design**
 
 ### Backend (Node.js + Express.js)
-- ✅ **RESTful API** with full CRUD operations
-- ✅ **MongoDB integration** with Mongoose ODM
-- ✅ **Data validation** and error handling
-- ✅ **CORS enabled** for frontend communication
-- ✅ **TypeScript support** for type safety
+- **RESTful API** with full CRUD operations
+- **MongoDB integration** with Mongoose ODM
+- **Data validation** and error handling
+- **CORS enabled** for frontend communication
+- **TypeScript support** for type safety
 
 ## Tech Stack
 
